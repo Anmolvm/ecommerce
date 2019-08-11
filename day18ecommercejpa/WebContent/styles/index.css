@@ -1,0 +1,170 @@
+header
+{
+	width:100%;
+	background-color: black;
+	height:100px;
+	
+}
+
+header nav
+{
+	padding-top:20px;
+}
+
+header nav ul li
+{
+	display:inline;
+	
+	margin-right: 1%;
+	list-style: none;
+	color: white;
+	font-size: large;
+	font-weight: bold;	
+}
+header nav ul li a
+{
+	color:white;
+	text-decoration: none;
+}
+
+header nav ul li a:HOVER {
+	
+	text-decoration: underline;
+}
+
+header menu
+{
+	 margin-left: 70%;
+	 margin-top: -2%; 
+}
+header menu ul li
+{
+	display:inline;	
+	margin-right: 1%;
+	list-style: none;
+	color: white;
+	font-size: large;
+	font-weight: bold;	
+}
+
+header menu ul li img
+{
+	width:25px;
+	
+}
+
+header menu ul li a
+{
+	color:white;
+	text-decoration: none;
+}
+
+header menu ul li a:HOVER {
+	
+	text-decoration: underline;
+}
+
+#logonbtn
+{
+	width:20%;
+	background-color: red;
+	color:white;
+	font-weight: bold;
+	font-size: large;
+}
+
+footer
+{
+	width:100%;
+	background-color: black;
+	height:100px;
+	margin-top:700px;
+	
+}
+
+footer nav
+{
+	padding-top:20px;
+}
+
+footer nav ul li
+{
+	display:inline;
+	
+	margin-right: 1%;
+	list-style: none;
+	color: white;
+	font-size: large;
+	font-weight: bold;	
+}
+footer nav ul li a
+{
+	color:white;
+	text-decoration: none;
+}
+
+footer nav ul li a:HOVER {
+	
+	text-decoration: underline;
+}
+
+footer p
+{
+	width:30%;
+	margin-left: 60%;
+	text-align: right;
+	color:white;
+	margin-top:-2%;
+	font-size: large;
+	font-weight: bold;	
+}
+
+form
+{
+	width:20%;
+	margin-top: 5%;
+	margin-left:10%;
+	
+}
+
+form input
+{
+	width:80%;
+	margin-bottom: 3%;
+	margin-left:10%;
+}
+
+form input[type=submit]
+{
+	width:40%;
+	margin-left:30%;
+	margin-bottom: 3%;
+	background-color: blue;
+	color:white;
+}
+
+table
+{
+	width:30%;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+tr
+{
+	background-color:green;
+}
+
+tr:nth-child(2n+1)
+{
+	background-color:lightgreen;
+	
+}
+
+select
+{
+	width:20%;
+	margin-left: 40%;
+	margin-bottom:5%;
+	
+}

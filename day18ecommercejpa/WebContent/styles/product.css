@@ -1,0 +1,94 @@
+section
+{
+	width:30%;
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+#productForm
+{
+	width:80%;
+	font-size: large;
+	font-weight: bold;
+	
+	background-color: lightgreen; 
+	
+}
+#productForm fieldset legend
+{
+	text-align:center;
+	font-size: large;
+	font-weight: bold;
+	color:green;
+}
+
+#productForm input
+{
+	width:60%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	font-size: large;
+	font-weight: bold;
+	border-radius:50px 50px 50px 50px;
+}
+#productForm select
+{
+	width:62%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	font-size: large;
+	font-weight: bold;
+	border-radius:50px 50px 50px 50px;
+	
+}
+#productForm fieldset input[type=submit]
+{
+	width:30%;
+	margin-left: 15%;
+	background-color: green;
+	border-radius:50px 50px 50px 50px;
+	color:white;
+	font-size: large;
+	font-weight: bold;
+	
+}
+
+#productForm fieldset input[type=reset]
+{
+	width:30%;
+	margin-left: 15%;
+	
+	background-color: red;
+	border-radius:50px 50px 50px 50px;
+	color:white;
+	font-size: large;
+	font-weight: bold;
+	
+}
+
+.error {
+         color: #ff0000;
+      }
+
+.errorblock {
+   color: #000;
+   background-color: #ffEEEE;
+   border: 3px solid #ff0000;
+   padding: 8px;
+   margin: 16px;
+}
+
+table
+{
+	width:40%;
+	margin-top: 5%;
+	margin-left: 20%;
+	background-color: lightgreen;
+}
+
+tr:nth-child(2n+1)
+{
+	background-color: green;
+	color:white;
+}
+
